@@ -1,6 +1,6 @@
 /* VariableFont */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Component/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -8,7 +8,7 @@
 
 /* Italic-VariableFont */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -16,7 +16,7 @@
 
 /* Black */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-Black.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -24,7 +24,7 @@
 
 /* BlackItalic */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-BlackItalic.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -32,7 +32,7 @@
 
 /* Bold */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-Bold.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -40,7 +40,7 @@
 
 /* BoldItalic*/
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -48,7 +48,7 @@
 
 /* ExtraBold */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -56,7 +56,7 @@
 
 /* Extra */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-Extra.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -64,7 +64,7 @@
 
 /* Italic */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-Italic.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -72,7 +72,7 @@
 
 /* Medium */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-Medium.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -80,7 +80,7 @@
 
 /* MediumItalic */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -88,7 +88,7 @@
 
 /* Regular */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-Regular.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -96,7 +96,7 @@
 
 /* SemiBold */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -104,7 +104,7 @@
 
 /* SemiBoldItalic */
 @font-face {
-    font-family: Oswald;
+    font-family: PlayfairDisplay;
     src: url(../Components/Playfair_Display/static/PlayfairDisplay-SemiBoldItalic.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
