@@ -145,3 +145,7 @@ footer {
     animation: gradientAnimation 8s ease infinite;
   }
 }
+
+h1,h2{
+  text-align: center;
+}
