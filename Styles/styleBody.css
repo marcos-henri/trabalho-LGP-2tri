@@ -101,13 +101,9 @@ a {
 
 main {
   flex: 20 1 500px;
-  height: calc(100vh - 224px);
+  height: auto;
   flex-direction: column;
   align-items: center;
-}
-
-aside {
-  flex: 1 1 200px;
 }
 
 footer {
@@ -115,6 +111,7 @@ footer {
   height: 100px;
   background-color: var(--cor2);
   filter: drop-shadow(2px -4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
 footer #logo {
@@ -126,70 +123,6 @@ footer #logo {
 
 #footer-logo {
   width: 50%;
-}
-
-@media only screen and (max-width: 923px) {
-  main {
-    height: calc(100vh - 330px);
-  }
-
-  aside {
-    flex: 1 1 100vw;
-    height: 100px;
-  }
-}
-
-@media only screen and (max-width: 717px) {
-
-  #openMenu,
-  #closeMenu {
-    display: block;
-  }
-
-  #openMenu {
-    margin-left: auto;
-  }
-
-  #closeMenu {
-    position: absolute;
-    right: 5px;
-    top: 35px;
-  }
-
-  nav {
-    position: fixed;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    display: none;
-    opacity: 0;
-    transition: 0.3s;
-
-    background: linear-gradient(45deg, #c9c9c9, #757575, #404040, #111111);
-    background-size: 600% 600%;
-    animation: gradientAnimation 10s ease infinite;
-  }
-
-  @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-
-    50% {
-      background-position: 100% 50%;
-    }
-
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
-  .animated-menu {
-    animation: gradientAnimation 8s ease infinite;
-  }
 }
 
 #t_01,
@@ -219,10 +152,6 @@ footer {
   margin-bottom: 5%
 }
 
-footer {
-  margin-top: 320%;
-}
-
 h1,
 h2,
 h3,
@@ -232,37 +161,37 @@ p,
 #img_03,
 #img_04,
 #img_05 {
-  margin-bottom: 1.5%
+  margin-bottom: 1.5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 p,
 h1,
 h2,
 h3 {
-  margin-left: 10%;
-  margin-right: 10%;
   text-align: justify;
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.8rem; /* 18px */
   font-weight: normal;
   font-style: normal;
 }
 
 h1 {
-  font-size: 6.4rem;
+  font-size: 6.4rem; /* 64px */
   font-weight: bold;
   font-style: normal;
 }
 
 h2 {
-  font-size: 4.8rem;
+  font-size: 4.8rem; /* 48px */
   font-weight: bold;
 }
 
 h3 {
-  font-size: 3.5rem;
+  font-size: 3.5rem; /* 35px */
   font-weight: normal;
   font-style: italic;
 }
@@ -321,4 +250,198 @@ h3 {
 #p_07,
 #p_08 {
   align-self: flex-start;
+}
+
+@media only screen and (max-width: 923px) {
+  header {
+    height: 80px;
+  }
+
+  main {
+    height: auto;
+  }
+
+  p {
+    font-size: 1.4rem; /* 14px */
+  }
+
+  h1 {
+    font-size: 5.6rem; /* 56px */
+  }
+
+  h2 {
+    font-size: 4.2rem; /* 42px */
+  }
+
+  h3 {
+    font-size: 3rem; /* 30px */
+  }
+
+  #img_01,
+  #img_02,
+  #img_03,
+  #img_04,
+  #img_05 {
+    max-width: 80%;
+  }
+
+  #header-logo {
+    width: 40%;
+  }
+
+  #footer-logo {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 717px) {
+  header {
+    height: 60px;
+  }
+
+  #openMenu,
+  #closeMenu {
+    display: block;
+  }
+
+  #openMenu {
+    margin-left: auto;
+  }
+
+  #closeMenu {
+    position: absolute;
+    right: 5px;
+    top: 35px;
+  }
+
+  nav {
+    position: fixed;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    display: none;
+    opacity: 0;
+    transition: 0.3s;
+
+    background: linear-gradient(45deg, #c9c9c9, #757575, #404040, #111111);
+    background-size: 600% 600%;
+    animation: gradientAnimation 10s ease infinite;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animated-menu {
+    animation: gradientAnimation 8s ease infinite;
+  }
+
+  p {
+    font-size: 1.2rem; /* 12px */
+  }
+
+  h1 {
+    font-size: 4.8rem; /* 48px */
+  }
+
+  h2 {
+    font-size: 3.6rem; /* 36px */
+  }
+
+  h3 {
+    font-size: 2.6rem; /* 26px */
+  }
+
+  #header-logo
+  #img_01,
+  #img_02,
+  #img_03,
+  #img_04,
+  #img_05 {
+    max-width: 60%;
+  }
+
+  #header-logo {
+    width: 30%;
+  }
+
+  #footer-logo {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  p {
+    font-size: 1.2rem; /* 12px */
+  }
+
+  h1 {
+    font-size: 3.8rem; /* 40px */
+  }
+
+  h2 {
+    font-size: 3rem; /* 32px */
+  }
+
+  h3 {
+    font-size: 2.2rem; /* 26px */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 1.1rem; /* 12px */
+  }
+
+  h1 {
+    font-size: 2.8rem; /* 28px */
+  }
+
+  h2 {
+    font-size: 2rem; /* 20px */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* 15px */
+  }
+} 
+
+@media only screen and (max-width: 350px) {
+  h1 {
+    font-size: 2.5rem; /* 25px */
+  }
+
+  h3 {
+    font-size: 1.3rem; /* 18px */
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  p {
+    font-size: 1rem; /* 10px */
+  }
+
+  h1 {
+    font-size: 2rem; /* 20px */
+  }
+
+  h2 {
+    font-size: 1.5rem; /* 20px */
+  }
+
+  h3 {
+    font-size: 1.2rem; /* 18px */
+  }
 }
