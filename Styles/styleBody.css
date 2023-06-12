@@ -326,9 +326,14 @@ h3 {
     opacity: 0;
     transition: 0.3s;
 
-    background: linear-gradient(45deg, #c9c9c9, #757575, #404040, #111111);
+    background: linear-gradient(90deg, #F2E8C9, #BF9788, #F2E8C9, #BF9788, #F2E8C9);
     background-size: 600% 600%;
     animation: gradientAnimation 10s ease infinite;
+  }
+   
+  #a_01,
+  #a_02 {
+    color: #734E40;
   }
 
   @keyframes gradientAnimation {
@@ -388,21 +393,21 @@ h3 {
   }
 
   h1 {
-    font-size: 3.8rem; /* 40px */
+    font-size: 3.8rem; /* 38px */
   }
 
   h2 {
-    font-size: 3rem; /* 32px */
+    font-size: 3rem; /* 30px */
   }
 
   h3 {
-    font-size: 2.2rem; /* 26px */
+    font-size: 2.2rem; /* 22px */
   }
 }
 
 @media only screen and (max-width: 480px) {
   p {
-    font-size: 1.1rem; /* 12px */
+    font-size: 1.1rem; /* 11px */
   }
 
   h1 {
@@ -424,7 +429,7 @@ h3 {
   }
 
   h3 {
-    font-size: 1.3rem; /* 18px */
+    font-size: 1.3rem; /* 13px */
   }
 }
 
