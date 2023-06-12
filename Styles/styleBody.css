@@ -37,7 +37,7 @@ header {
   flex: 1 1 100vw;
   height: 100px;
   background-color: var(--cor2);
-  filter:drop-shadow( 0px 5px 5px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
 }
 
 header #logo {
@@ -200,7 +200,9 @@ footer #logo {
   color: var(--cor1);
 }
 
-header, main, footer {
+header,
+main,
+footer {
   margin-bottom: 1%
 }
 
@@ -223,7 +225,7 @@ p,
 p,
 h1,
 h2,
-h3  {
+h3 {
   margin-left: 10%;
   margin-right: 10%;
   text-align: justify;
