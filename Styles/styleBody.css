@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
 body {
   display: flex;
   flex-wrap: wrap;
@@ -203,11 +216,11 @@ footer #logo {
 header,
 main,
 footer {
-  margin-bottom: 1%
+  margin-bottom: 5%
 }
 
 footer {
-  margin-top: 302%;
+  margin-top: 320%;
 }
 
 h1,
@@ -229,6 +242,29 @@ h3 {
   margin-left: 10%;
   margin-right: 10%;
   text-align: justify;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 4.8rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  font-style: italic;
 }
 
 #img_01 {
@@ -271,6 +307,7 @@ h3 {
   border-radius: 20px;
 }
 
+#t_02,
 #t_05,
 #t_06,
 #t_07,
