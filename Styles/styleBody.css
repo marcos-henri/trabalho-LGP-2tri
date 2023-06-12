@@ -184,10 +184,13 @@ p,
   margin-bottom: 1.5%
 }
 
-p {
+p,
+h1,
+h2,
+h3  {
   margin-left: 10%;
   margin-right: 10%;
-  text-align: justify
+  text-align: justify;
 }
 
 #img01 {
@@ -200,5 +203,9 @@ p {
 
 #h05,
 #h07 {
-  align-items: first baseline;
+  align-self: flex-start;
+}
+
+#p03 {
+  align-self: flex-start;
 }
