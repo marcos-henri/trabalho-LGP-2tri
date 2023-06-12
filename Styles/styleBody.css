@@ -20,6 +20,10 @@ body {
   --cor4: #0D0D0D;
 }
 
+body {
+  background-color: var(--cor0);
+}
+
 header,
 nav,
 main,
@@ -32,6 +36,8 @@ footer {
 header {
   flex: 1 1 100vw;
   height: 100px;
+  background-color: var(--cor2);
+  filter:drop-shadow( 0px 5px 5px rgba(0, 0, 0, 0.25));
 }
 
 header #logo {
@@ -72,6 +78,14 @@ a {
   color: inherit;
 }
 
+#a_01 {
+  color: var(--cor0);
+}
+
+#a_02 {
+  color: var(--cor1);
+}
+
 main {
   flex: 20 1 500px;
   height: calc(100vh - 224px);
@@ -86,6 +100,19 @@ aside {
 footer {
   flex: 1 1 100vw;
   height: 100px;
+  background-color: var(--cor2);
+  filter: drop-shadow(2px -4px 4px rgba(0, 0, 0, 0.25));
+}
+
+footer #logo {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex: 0 1 200px;
+}
+
+#footer-logo {
+  width: 50%;
 }
 
 @media only screen and (max-width: 923px) {
@@ -152,20 +179,25 @@ footer {
   }
 }
 
-#h01,
-#h02,
-#h03,
-#h04,
-#h05,
-#h06,
-#h07,
-#h08,
-#p01,
-#p02,
-#p03,
-#p04,
-#p05 {
+#t_01,
+#t_02,
+#t_03,
+#t_04,
+#t_05,
+#t_06,
+#t_07,
+#t_08,
+#t_09,
+#p_01,
+#p_02,
+#p_03,
+#p_04,
+#p_05,
+#p_06,
+#p_07,
+#p_08 {
   font-family: var(--font);
+  color: var(--cor1);
 }
 
 header, main, footer {
@@ -173,14 +205,18 @@ header, main, footer {
 }
 
 footer {
-  margin-top: 100%;
+  margin-top: 302%;
 }
 
 h1,
 h2,
 h3,
 p,
-#img01 {
+#img_01,
+#img_02,
+#img_03,
+#img_04,
+#img_05 {
   margin-bottom: 1.5%
 }
 
@@ -193,7 +229,7 @@ h3  {
   text-align: justify;
 }
 
-#img01 {
+#img_01 {
   width: 100%;
   max-width: 892px;
   height: auto;
@@ -201,11 +237,49 @@ h3  {
   border-radius: 20px;
 }
 
-#h05,
-#h07 {
+#img_02 {
+  width: 100%;
+  max-width: 892px;
+  height: auto;
+  max-height: 447.01px;
+  border-radius: 20px;
+}
+
+#img_03 {
+  width: 100%;
+  max-width: 892px;
+  height: auto;
+  max-height: 446px;
+  border-radius: 20px;
+}
+
+#img_04 {
+  width: 100%;
+  max-width: 892px;
+  height: auto;
+  max-height: 443.99px;
+  border-radius: 20px;
+}
+
+#img_05 {
+  width: 100%;
+  max-width: 892px;
+  height: auto;
+  max-height: 444.99px;
+  border-radius: 20px;
+}
+
+#t_05,
+#t_06,
+#t_07,
+#t_08,
+#t_09 {
   align-self: flex-start;
 }
 
-#p03 {
+#p_04,
+#p_06,
+#p_07,
+#p_08 {
   align-self: flex-start;
 }
