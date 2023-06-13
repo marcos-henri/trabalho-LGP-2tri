@@ -31,6 +31,7 @@ body {
   --cor2: #BF9788;
   --cor3: #F26457;
   --cor4: #0D0D0D;
+  --shadow: #00000040;
 }
 
 body {
@@ -50,7 +51,7 @@ header {
   flex: 1 1 100vw;
   height: 100px;
   background-color: var(--cor2);
-  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 5px 5px var(--shadow));
 }
 
 header #logo {
@@ -91,12 +92,19 @@ a {
   color: inherit;
 }
 
-#a_01 {
-  color: var(--cor0);
-}
-
+#a_01,
 #a_02 {
   color: var(--cor1);
+  padding: 15px;
+  transition: color 0.3s ease
+}
+
+#a_01:hover,
+#a_02:hover {
+  color: var(--cor0);
+  background-color: var(--cor5);
+  border-radius: 15px;
+  text-shadow: var(--shadow);
 }
 
 main {
@@ -110,7 +118,7 @@ footer {
   flex: 1 1 100vw;
   height: 100px;
   background-color: var(--cor2);
-  filter: drop-shadow(2px -4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(2px -4px 4px var(--shadow));
 
 }
 
