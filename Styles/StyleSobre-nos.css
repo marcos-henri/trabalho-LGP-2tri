@@ -1,0 +1,67 @@
+:root {
+    --cor0: #F2E8C9;
+    --cor1: #734E40;
+    --cor3: #bf97887c;
+    --shadow: #00000040;
+  }
+
+.container {
+    overflow: hidden;
+    margin-bottom: 1.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    background-color: var(--cor3);
+    border-radius: 25px;
+}
+
+.photo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    max-height: 250px;
+    border-radius: 100%;
+    align-self: center;
+}
+
+#photo_02 {
+    float: right;
+    margin-right: 3%;
+}
+
+#photo_01,
+#photo_03 {
+    float: left;
+    margin-left: 3%;
+}
+
+.information_01 {
+    margin-left: 20%;
+    padding: 15px;
+    color: var(--cor1);
+}
+
+#information_02 {
+    margin-right: 20%;
+    padding: 25px;
+    color: var(--cor1);
+}
+
+.information_03 {
+    margin-left: 20%;
+    padding: 15px;
+    color: var(--cor1);
+}
+
+.linkstyle {
+    margin-left: 8.7%;
+    padding: 10px;
+    color: var(--cor1);
+    transition: color 0.3s ease
+}
+
+.linkstyle:hover {
+    background-color: var(--shadow);
+    border-radius: 15px;
+    color: var(--cor0);
+}

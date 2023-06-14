@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="Styles/styleBody.css">
-    <link rel="stylesheet" href="Styles/StyleSobre-nos.css">
+    <link rel="stylesheet" href="Styles/styleSobre-nos.css">
+    <link rel="stylesheet" href="Styles/responsiveness.css">
     <link rel="stylesheet" href="Font/font.css">
 </head>
+
 <body>
     <header>
         <a href="index.html" id="logo">
@@ -18,12 +21,55 @@
         <nav id="menu">
             <button id="closeMenu">X</button>
             <a href="index.html" id="a_01">Início</a>
-            <a href="sobre-nos.html" id="a_02">Sobre nós</a>  
+            <a href="sobre-nos.html" id="a_02">Sobre nós</a>
         </nav>
     </header>
 
     <main>
+        <h1 id="t_01">Sobre nós</h1>
 
+        <div class="container">
+            <img src="" alt="Kelvin Moreira" class="photo" id="photo_01" class="hide">
+
+            <div class="information_01">
+                <h2 class="title">Kelvin Moreira</h2>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur. Magna enim malesuada at eu placerat porttitor. Sodales a dui
+                facilisi eu odio vel pellentesque. Ac nec sed praesent vulputate suspendisse turpis imperdiet pharetra.
+                Fermentum eget ipsum et purus porttitor etiam adipiscing cursus porttitor.</p>
+                <br>
+                <a href="#" class="linkstyle" target="_blank">Linkedin</a>
+                <a href="https://github.com/Kelvin-Moreira" class="linkstyle" target="_blank">Github</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="Components/Images/Marcos Henrique.jfif" alt="Marcos Henrique" class="photo" id="photo_02">
+
+            <div id="information_02">
+                <h2 class="title">Marcos Henrique</h2>
+                <img src="Components/Images/Marcos Henrique.jfif" alt="Marcos Henrique" id="photo_02" class="photo_show">
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur. Magna enim malesuada at eu placerat porttitor. Sodales a dui
+                facilisi eu odio vel pellentesque. Ac nec sed praesent vulputate suspendisse turpis imperdiet pharetra.
+                Fermentum eget ipsum et purus porttitor etiam adipiscing cursus porttitor.</p>
+                <br>
+                <a href="#" class="linkstyle" target="_blank">Linkedin</a>
+                <a href="https://github.com/marcos-henri" target="_blank" class="linkstyle">Github</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="" alt="William Araújo" class="photo" id="photo_03" class="hide">
+
+            <div class="information_03">
+                <h2 class="title">William Araújo</h2>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur. Magna enim malesuada at eu placerat porttitor. Sodales a dui
+                    facilisi eu odio vel pellentesque. Ac nec sed praesent vulputate suspendisse turpis imperdiet pharetra.
+                    Fermentum eget ipsum et purus porttitor etiam adipiscing cursus porttitor.</p>
+                <br>
+                <a href="#" class="linkstyle" target="_blank">Linkedin</a>
+                <a href="https://github.com/williamthesystemout" target="_blank" class="linkstyle">Github</a>
+            </div>    
+        </div>
     </main>
 
     <footer>
@@ -31,7 +77,8 @@
             <img id="footer-logo" src="Components/Images/uj-logo.png" alt="Logo UniJorge">
         </a>
     </footer>
-    
+
     <script type="text/javascript" src="Scripts/scriptMenu.js"></script>
 </body>
+
 </html>

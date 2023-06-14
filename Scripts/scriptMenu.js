@@ -1,6 +1,7 @@
 const openMenuButton = document.getElementById('openMenu');
 const closeMenuButton = document.getElementById('closeMenu');
 const menu = document.getElementById('menu');
+const body = document.body;
 
 function openMenu() {
   menu.style.display = 'flex';
@@ -14,6 +15,7 @@ function openMenu() {
   setTimeout(() => {
     menu.style.opacity = '1';
     menu.style.right = '0';
+    body.style.overflow = 'hidden'; // Trava o rolamento
   }, 10);
 }
 
@@ -26,6 +28,7 @@ function closeMenu() {
   setTimeout(() => {
     menu.removeAttribute('style');
     openMenuButton.removeAttribute('style');
+    body.style.overflow = ''; // Libera o rolamento
   }, 200);
 }
 
