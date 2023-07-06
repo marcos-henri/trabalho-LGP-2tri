@@ -28,8 +28,12 @@
     float: right;
     margin-right: 3%;
 }
+#photo_01 {
+    float: left;
+    margin-left: 3%;
+    height: 250px;
+}
 
-#photo_01,
 #photo_03 {
     float: left;
     margin-left: 3%;
