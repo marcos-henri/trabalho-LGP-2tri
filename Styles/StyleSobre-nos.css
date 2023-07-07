@@ -6,62 +6,36 @@
   }
 
 .container {
-    overflow: hidden;
-    margin-bottom: 1.5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 15px;
+    width: 70%;
+    display: flex;
+    margin: 0 10% 1.5% 10%;
+    padding: 25px;
     background-color: var(--cor3);
     border-radius: 25px;
 }
 
+#container-mh{
+    flex-direction: row-reverse;
+}
+.container-photo{
+    width: 30%;
+}
 .photo {
     width: 100%;
-    max-width: 250px;
-    height: auto;
-    max-height: 250px;
     border-radius: 100%;
     align-self: center;
 }
 
-#photo_02 {
-    float: right;
-    margin-right: 3%;
-}
-#photo_01 {
-    float: left;
-    margin-left: 3%;
-    height: 250px;
-}
-
-#photo_03 {
-    float: left;
-    margin-left: 3%;
-}
-
-.information_01 {
-    margin-left: 20%;
-    padding: 15px;
-    color: var(--cor1);
-}
-
-#information_02 {
-    margin-right: 20%;
-    padding: 25px;
-    color: var(--cor1);
-}
-
-.information_03 {
-    margin-left: 20%;
+.information{
     padding: 15px;
     color: var(--cor1);
 }
 
 .linkstyle {
-    margin-left: 8.7%;
+    margin-left: 9%;
     padding: 10px;
     color: var(--cor1);
-    transition: color 0.3s ease
+    transition: color 0.3s ease;
 }
 
 .linkstyle:hover {
