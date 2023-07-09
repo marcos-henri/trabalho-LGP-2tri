@@ -130,6 +130,7 @@ footer #logo {
 #t_07,
 #t_08,
 #t_09,
+#t_10,
 #p_01,
 #p_02,
 #p_03,
@@ -137,7 +138,8 @@ footer #logo {
 #p_05,
 #p_06,
 #p_07,
-#p_08 {
+#p_08,
+#p_09 {
   font-family: var(--font);
   color: var(--cor1);
 }
@@ -232,6 +234,14 @@ h3 {
   border-radius: 20px;
 }
 
+#img_06 {
+  width: 100%;
+  max-width: 892px;
+  height: auto;
+  max-height: 444.99px;
+  border-radius: 20px;
+}
+
 #t_02,
 #t_05,
 #t_06,
@@ -244,6 +254,7 @@ h3 {
 #p_04,
 #p_06,
 #p_07,
-#p_08 {
+#p_08,
+#p_09 {
   align-self: flex-start;
 }
